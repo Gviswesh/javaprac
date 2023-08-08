@@ -161,3 +161,22 @@ This occurs until all the cookies have a sweetness >k.
 
 Given the sweetness of a number of cookies, determine the minimum number of operations required. If it is not possible, return -1.
 
+ ## Pattern Generation
+ analyze the output given for an input N. Write a program that gives the similar pattern
+
+Input 
+1
+
+OUtput:
+1
+1
+
+Input :
+2
+
+OUtput:
+1
+2*2
+2*2
+1
+
