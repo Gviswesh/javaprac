@@ -1,3 +1,4 @@
+import javax.swing.*;
 public class binaryaddition {
     public static String addBinary(String binary1, String binary2) {
         // Align binary numbers
@@ -29,8 +30,8 @@ public class binaryaddition {
     }
 
     public static void main(String[] args) {
-        String binary1 = "1101";
-        String binary2 = "101";
+        String binary1 = JOptionPane.showInputDialog(null,"Enter first binary number");
+        String binary2 = JOptionPane.showInputDialog(null,"Enter the second binary number");
         String sum = addBinary(binary1, binary2);
         System.out.println("Sum: " + sum); // Output: 10100
     }
